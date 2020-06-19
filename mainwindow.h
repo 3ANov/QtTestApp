@@ -18,15 +18,11 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_pushButton_clicked();
     void open();
     void process();
     void save();
-    void updateButtonLabel();
 
 private:
     Ui::MainWindow *ui;
-    QPushButton *pushButton;
-    QLabel *label;
 };
 #endif // MAINWINDOW_H
